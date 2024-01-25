@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     //Clase jugador base donde se crean variables publicas y protegidas.
-.
+
     public bool isDead = true;
     protected float health;
 
