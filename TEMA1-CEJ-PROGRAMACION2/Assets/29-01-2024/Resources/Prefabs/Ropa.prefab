@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 488c9785a4a4142509158df70745645c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a00f4f5eabeac0e48a136ec4f4998f2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,8 +100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Ropa
+  ID: 1
   life: 10
   descripcion: Te protege ante las bajas temperaturas.
+  type: Objeto
   icon: {fileID: 21300000, guid: 488c9785a4a4142509158df70745645c, type: 3}
   pickedUp: 0
   rareza: 1
@@ -143,7 +145,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.024, y: 1.024}
+    oldSize: {x: 1.111, y: 1.111}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
